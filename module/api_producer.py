@@ -1,8 +1,3 @@
-# Part 1: Build API source with single endpoint
-# Expected return: 
-# a) Type of an animal: cat (50%) or dog (50%)
-# b) Weight of an animal: cat N(10,3) or dog N(7,4)
-
 import random
 from flask import Flask, jsonify
 app = Flask(__name__)
